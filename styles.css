@@ -22,8 +22,11 @@ h1 {
 
 .ingredients {
     background-color: hsla(194, 64%, 44%, 0.562);
-    margin: auto;
-    margin-right: 10%;
     border-style: solid;
     border-width: 1px;
+    display: grid;
+    grid-template-columns: fit-content(500px) fit-content (500px) 1fr;
+    box-sizing: border-box;
+    height: auto;
+    width: 500px;
 }
