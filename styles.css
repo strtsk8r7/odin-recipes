@@ -23,7 +23,7 @@ h1 {
 .ingredients {
     background-color: hsla(194, 64%, 44%, 0.562);
     margin: auto;
-    margin-right: 90%;
+    margin-right: 10%;
     border-style: solid;
     border-width: 1px;
 }
