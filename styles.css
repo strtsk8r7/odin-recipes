@@ -16,6 +16,7 @@ button {
     overflow: hidden;
     color: #ffaa5a;
     width: 300px;
+    border: none;
 }
 
 button .home {
