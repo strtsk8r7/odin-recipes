@@ -1,13 +1,20 @@
 * {
     font-family: "Lucida Console", "Monaco", monospace;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
 }
 
-button,
-.home {
+button {
     font-size: 25px;
+    font-weight: 600;
     background-color: hsl(212, 89%, 76%);
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 8px 8px;
     display: block;
+}
+
+button:hover {
+    background-color: hsl(212, 89%, 60%);
 }
 
 img,
@@ -21,12 +28,25 @@ h1 {
 }
 
 .ingredients {
-    background-color: hsla(194, 64%, 44%, 0.562);
+    text-align: justify;
+    background-color: hsl(194, 64%, 44%);
     border-style: solid;
     border-width: 1px;
     display: grid;
     grid-template-columns: fit-content(500px) fit-content (500px) 1fr;
-    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px auto;
     height: auto;
-    width: 500px;
+    width: 40em;
+    display: block;
+}
+
+.ing-list {
+    background-color: hsl(194, 64%, 44%);
+    margin: 10px auto;
+}
+
+.ing-list li {
+    background-color: hsl(194, 64%, 44%);
+    margin: 10px auto;
 }
