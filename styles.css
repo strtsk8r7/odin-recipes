@@ -35,12 +35,11 @@ h1 {
 }
 
 .ingredients > * {
-    background-color: hsl(194, 64%, 44%);
     border-style: solid;
     list-style: none;
     border-radius: 20px;
-    border-width: 3px;
-    
+    border-width: 5px;
+    background-color: hsl(194, 64%, 44%);
 
 }
 
@@ -51,6 +50,9 @@ h1 {
     flex-basis: 0;
 }
 
+.ingredients strong {
+    background-color: hsl(194, 64%, 44%);
+}
 .h3 {
     font-weight: 600;
     font-size: larger;
