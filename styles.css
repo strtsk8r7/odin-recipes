@@ -1,4 +1,4 @@
-* {
+body {
     font-family: "Lucida Console", "Monaco", monospace;
     box-sizing: border-box;
     background-color: blanchedalmond;
@@ -28,10 +28,10 @@ h1 {
 }
 
 .ingredients {
-    text-align: justify;
+    text-align: left;
     display: flex;
     list-style: none;
-    padding: 5px;
+    padding: 1px;
 }
 
 .ingredients > * {
@@ -40,19 +40,18 @@ h1 {
     border-radius: 20px;
     border-width: 5px;
     background-color: hsl(194, 64%, 44%);
-
+    overflow: hidden;
 }
 
 .ingredients li {
-    background-color: hsl(194, 64%, 44%);
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
 }
 
-.ingredients strong {
+/*.ingredients strong {
     background-color: hsl(194, 64%, 44%);
-}
+}*/
 .h3 {
     font-weight: 600;
     font-size: larger;
