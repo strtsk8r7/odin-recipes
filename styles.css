@@ -15,7 +15,7 @@ button {
     border-radius: 50px;
     overflow: hidden;
     color: #ffaa5a;
-    width: 300px;
+    width: 200px;
     border: none;
 }
 
@@ -23,9 +23,14 @@ button .home {
     width: 200px;
 }
 
+button a {
+    font-size: 12px;
+}
+
 button img {
-    height: 100px;
+    height: 50px;
     width: auto;
+    border-radius: 300px;
 }
 button:hover {
     background-color: #c06170;
