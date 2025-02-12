@@ -1,16 +1,18 @@
-body {
+  body {
     font-family: "Lucida Console", "Monaco", monospace;
     box-sizing: border-box;
-    background-color: blanchedalmond;
-}
+    background-color: #483C46;
+    color: #FFAA5A;
+  }
 
 button {
     font-size: 25px;
     font-weight: 600;
-    background-color: hsl(212, 89%, 76%);
+    background-color: #CEE0DC;
     margin: 10px auto;
     padding: 8px 8px;
     display: block;
+    border-radius: 50px;
 }
 
 button:hover {
@@ -22,6 +24,8 @@ img,
     display: block;
     margin: auto;
     width: auto;
+    border-radius: 20px;
+    overflow: hidden;
 }
 h1 {
     text-align: center;
@@ -39,7 +43,9 @@ h1 {
     list-style: none;
     border-radius: 20px;
     border-width: 5px;
-    background-color: hsl(194, 64%, 44%);
+    border-color: #ffaa5a;
+    background-color: #ef798a;
+    color: #483c46;
     overflow: hidden;
     margin: 0 auto;
 }
