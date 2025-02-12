@@ -82,3 +82,15 @@ h1 {
     height: 300px;
     border-radius: 25px;
 }
+
+a:link {
+    color:#ef798a
+}
+
+a:link, a:visited {
+    color: #c06170;
+}
+
+a:link, a:hover {
+    color: #ff8194;
+}
