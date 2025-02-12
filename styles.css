@@ -50,3 +50,6 @@ h1 {
     background-color: hsl(194, 64%, 44%);
     margin: 10px auto;
 }
+.ing-list li strong {
+    background-color: hsl(194, 64%, 44%);
+}
