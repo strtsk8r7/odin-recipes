@@ -27,29 +27,40 @@ h1 {
     text-align: center;
 }
 
-.ingredients {
+.ingredients ul {
     text-align: justify;
     background-color: hsl(194, 64%, 44%);
-    border-style: solid;
-    border-width: 1px;
-    display: grid;
-    grid-template-columns: fit-content(500px) fit-content (500px) 1fr;
-    padding: 10px;
-    margin: 10px auto;
-    height: auto;
-    width: 40em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style: none;
+    padding: 5px;
+    margin: 1px auto;
     display: block;
 }
 
-.ing-list {
+.ingredients > * {
     background-color: hsl(194, 64%, 44%);
-    margin: 10px auto;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    width: 500px;
 }
 
-.ing-list li {
+.ingredients li {
     background-color: hsl(194, 64%, 44%);
-    margin: 10px auto;
 }
-.ing-list li strong {
-    background-color: hsl(194, 64%, 44%);
+
+.h3 {
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.h4 {
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
