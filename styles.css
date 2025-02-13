@@ -27,7 +27,7 @@ img,
 .img {
     display: block;
     margin: auto;
-    /*width: 200px;*/
+    width: 200px;
     height: auto;
     border-radius: 20px;
     overflow: hidden;
@@ -79,15 +79,15 @@ h1 {
 }
 
 .img-box {
-    /*display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;*/
+    gap: 1rem;
     border: 5px solid #ffaa5a;
     border-radius: 25px;
-    width: 300px;
     margin: 0 auto;
+    width: 300px;
        
 }
 
@@ -118,7 +118,8 @@ a:link, a:hover {
 }
 
 .img-links li {
-    margin: 0 auto;
+    margin: 1em auto;
+    margin-top: 1em;
     padding: 1em;
     text-align: center;
     list-style: none;
@@ -139,6 +140,6 @@ a:link, a:hover {
 }
 
 .home-img {
-    height: 150px;
+    height: 200px;
     width: auto;
 }
