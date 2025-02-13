@@ -117,7 +117,9 @@ a:link, a:hover {
     color: #ff8194;
 }
 
+
 .img-links li {
+    display: list-item;
     margin: 0 auto;
     padding: 1em;
     text-align: center;
@@ -129,9 +131,12 @@ a:link, a:hover {
 
 .img-links {
     display: flex;
+    justify-content: center;
     gap: 2em;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
+    min-width: 400px;
+    flex-wrap: wrap;
 }
 
 .img-links li a {
