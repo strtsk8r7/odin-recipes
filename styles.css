@@ -123,7 +123,7 @@ a:link, a:hover {
     margin: 0 auto;
     padding: 1em;
     text-align: center;
-    list-style: none;
+    list-style-type: none;
     border: 5px solid #ffaa5a;
     border-radius: 25px;
     width: 200px;
@@ -135,7 +135,7 @@ a:link, a:hover {
     gap: 2em;
     flex: 1;
     flex-direction: row;
-    min-width: 400px;
+    min-width: 200px;
     flex-wrap: wrap;
 }
 
