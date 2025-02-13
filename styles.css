@@ -19,19 +19,6 @@ button {
     border: none;
 }
 
-button .home {
-    width: 200px;
-}
-
-button a {
-    font-size: 12px;
-}
-
-button img {
-    height: 50px;
-    width: auto;
-    border-radius: 300px;
-}
 button:hover {
     background-color: #c06170;
 }
@@ -40,7 +27,7 @@ img,
 .img {
     display: block;
     margin: auto;
-    width: 200px;
+    /*width: 200px;*/
     height: auto;
     border-radius: 20px;
     overflow: hidden;
@@ -128,4 +115,30 @@ a:link, a:visited {
 
 a:link, a:hover {
     color: #ff8194;
+}
+
+.img-links li {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    list-style: none;
+    border: 5px solid #ffaa5a;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.img-links {
+    display: flex;
+    gap: 2em;
+    flex: 1;
+    flex-direction: column;
+}
+
+.img-links li a {
+    text-decoration: none;
+}
+
+.home-img {
+    height: 150px;
+    width: auto;
 }
