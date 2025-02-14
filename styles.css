@@ -139,6 +139,10 @@ a:link, a:hover {
     flex-wrap: wrap;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .img-links li a {
     text-decoration: none;
 }
