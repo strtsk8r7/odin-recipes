@@ -62,8 +62,8 @@ ul {
 
 .img-links {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 0em;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
     
 }
 
