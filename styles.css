@@ -27,6 +27,7 @@ body {
     color: #FFAA5A;
     max-width: 100vw;
     overflow: hidden;
+    margin: 0;
     
   }
 li {
@@ -44,8 +45,12 @@ ul {
 /*Homepage*/
   .header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-right: 5vw;
     padding-left: 5vw;
+    background-color: #342b33;
+    height: 6vh;
   }
 
   .header p {
@@ -57,13 +62,14 @@ ul {
 .home-img {
     height: 20vw;
     width: auto;
+    border-radius: 20px;
 
 }
 
 .img-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3em;
+    gap: 3vw;
     
 }
 
