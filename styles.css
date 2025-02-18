@@ -86,3 +86,7 @@ ul {
     border-radius: 25px;
     padding: 2vh;
 }
+
+.button:hover {
+    background-color: #342b33;
+}
