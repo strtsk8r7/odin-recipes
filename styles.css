@@ -42,6 +42,12 @@ ul {
     padding-inline-start: 0;
 }
 
+h1 {
+    font-size: var(--step-0);
+    border-bottom: solid 2px;
+    margin: 2vw;
+}
+
 /*Homepage*/
   .header {
     display: flex;
@@ -81,7 +87,7 @@ ul {
     gap: 1vh;
     font-size: var(--step-0-12px);
     text-align: center;
-    border: solid 3px #FFAA5A;
+    border: solid 4px #FFAA5A;
     margin: 5vw;
     border-radius: 25px;
     padding: 2vh;
