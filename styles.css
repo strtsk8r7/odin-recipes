@@ -65,7 +65,7 @@ h1 {
   }
 
 .home-img {
-    height: 20vw;
+    height: 30vw;
     width: auto;
     border-radius: 20px;
 
@@ -76,24 +76,31 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
     gap: 3vw;
+    padding: 1rem;
     
 }
 
-.button a {
-    display: grid;
-    grid-template-rows: 1fr .3fr;
-    justify-items: center;
-    align-items: center;
-    color: #ef798a;
-    gap: 1vh;
+.button {
+   
+    
+    gap: 1rem;
     font-size: var(--step-0-12px);
     text-align: center;
     border: solid 4px #FFAA5A;
-    margin: 5vw;
+    
     border-radius: 25px;
-    padding: 2vh;
+    padding: 1em;
 }
 
 .button:hover {
     background-color: #342b33;
+}
+
+.button a {
+    color: #ef798a;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    align-content: start;
+    justify-items: center;
+    gap: .7rem;
 }
