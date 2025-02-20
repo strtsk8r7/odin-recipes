@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buttermilk Cornbread</title>
-    <link rel="stylesheet"  href="../styles.css">
+    <link rel="stylesheet"  href="/styles.css">
+    <script src="/nav.js" defer></script>
 </head>
 <body>
   <div class="header">
     <p>Logo</p>
-    <a class="Home" href='../index.html'>Home</a>
+    <button class="sr-only" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" id="dropdown"><img class="nav" src="../images/menu2.png"> </button>
+    <nav>
+      <ul data-visible="false" id="primary-navigation" class="primary-navigation">
+        <li><a class="Home" href='../index.html'><span aria-hidden="true">Home</span></a></li>
+      </ul>
+    </nav>    
   </div>
     <h1>Buttermilk Cornbread</h1>
-    <p><button class="Home" onclick="location.href='../index.html'">Home</button></p>
-    <div class="img-box">
+      <div class="img-box">
       <img class="img" src="../images/Buttermilk-Cornbread.jpg" alt="Buttermilk Cornbread in a cast iron pan" height="403" width="302">
       <div class="img-text">
         <article>Prep Time: 15 Minutes</article>
