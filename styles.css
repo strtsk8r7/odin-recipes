@@ -32,17 +32,14 @@ body {
     margin: 0;
     overflow-x: hidden;
   }
-li {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
     color: #FFAA5A;
 }
 
-a:hover {
-    color: #ef798a;
+.primary-navigation a:hover {
+    color: #FFAA5A;
 }
 
 ul {
@@ -60,7 +57,6 @@ h1 {
 }
 
 #dropdown {
-    background-color: #342b33;
     background: none;
 	color: inherit;
 	border: none;
@@ -71,9 +67,10 @@ h1 {
     overflow: hidden;
 }
 
-a .home {
-    font-size: 4vw;
-    font-weight: 700;
+li  {
+    list-style: none;
+    font-size: var(--step--4);
+    font-weight: 900;
 }
 
 /*Homepage*/
@@ -140,17 +137,18 @@ a .home {
         position: fixed;
         inset: 0 0 0 30%;
         background: #483C46;
-        backdrop-filter: blur(1rem);
         transform: translateX(100%);
         padding: 5rem 2rem;
+        transition: .5s;
     }
 
     .primary-navigation[data-visible="true"]{
         transform: translateX(0%);
+        transition: .5s;
     }
 
-    .navbar a {
-        font-size: 5vw;
+    .primary-navigation a {
+        font-size: var(--step-2-12px);
         font-weight: 700;
     }
 }
@@ -176,7 +174,14 @@ a .home {
     #dropdown {
         display: none;
     }
+    .primary-navigation{
+        backdrop-filter: none;
+        background-color: #342b33;
+    }
     
+    .primary-navigation a {
+        color: #ef798a;
+    }
 }
 
 /*Branch Pages*/
