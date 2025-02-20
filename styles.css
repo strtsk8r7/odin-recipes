@@ -81,7 +81,9 @@ li  {
     padding-right: 5vw;
     padding-left: 5vw;
     background-color: #342b33;
-    height: 6vh;
+    height: 4rem;
+    position: sticky;
+    top: 0;
   }
 
   .header p {

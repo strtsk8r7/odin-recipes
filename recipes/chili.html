@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chili</title>
     <link rel="stylesheet" href="../styles.css">
+    <script src="../nav.js" defer></script>
 </head>
 <body>
     <div class="header">
       <p>Logo</p>
-      <a class="Home" href=../index.html>Home</a>
+      <button class="sr-only" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" id="dropdown"><img class="nav" src="../images/menu2.png"> </button>
+    <nav>
+      <ul data-visible="false" id="primary-navigation" class="primary-navigation">
+        <li><a class="Home" href='../index.html'><span aria-hidden="true">Home</span></a></li>
+      </ul>
+    </nav>
     </div>
     <h1>Chili Recipe</h1>
     
