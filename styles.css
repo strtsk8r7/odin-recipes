@@ -82,6 +82,9 @@ li  {
         background-color: #483C46;
         color: #FFAA5A;
     }
+    .button a {
+        color: #ef798a;
+    }
     
 }
 
@@ -135,7 +138,7 @@ li  {
 }
 
 .button a {
-    color: #ef798a;
+    /*color: #ef798a;*/
     display: grid;
     grid-template-columns: 1fr, 1fr;
     align-content: start;
@@ -144,8 +147,8 @@ li  {
 }
 
 @media(max-width: 35em) {
-    li:nth-child(5),
-    li:nth-child(6) {
+    .img-links li:nth-child(5),
+    .img-links li:nth-child(6) {
         display: none; 
     }
     .primary-navigation {
