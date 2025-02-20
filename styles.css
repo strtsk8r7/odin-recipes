@@ -75,7 +75,6 @@ h1 {
 li  {
     /*list-style: none;*/
     font-size: var(--step--4);
-    font-weight: 900;
 }
 
 /*Homepage*/
@@ -260,4 +259,16 @@ li  {
 
 .description {
     padding: 1rem;
+}
+
+.notes {
+    margin: 1em;
+}
+
+li a {
+    color: #ef798a;
+}
+
+li a:hover {
+    color: #bd5d6c;
 }
