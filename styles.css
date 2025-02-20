@@ -157,14 +157,6 @@ li  {
         padding: 5rem 2rem;
         transition: .5s;
     }
-    .sub-menu {
-        transform: translateX(110%);
-    }
-
-    .sub-menu[data-visible="true"] {
-        transform: translateX(0%);
-        transition: 350ms;
-    }
 
     .primary-navigation[data-visible="true"]{
         transform: translateX(0%);
@@ -179,6 +171,29 @@ li  {
 .mobile-subnav-toggle button {
     background: url();
     height: 1em;
+}
+.subnav button {
+    
+    background: inherit;
+    height: 2em;
+    width: 3em;
+    border-style: none;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu li {
+    padding: .4rem;
+}
+
+.sub-menu a {
+    font-size: var(--step-0-12px);
+}
+
+.subnav:hover .sub-menu {
+    display: block;
 }
 
 @supports (backdrop-filter: blur(1rem)){
@@ -210,6 +225,11 @@ li  {
     .primary-navigation a {
         color: #ef798a;
     }
+}
+
+.primary-navigation {
+    display: flex;
+    flex-direction: column;
 }
 
 /*Branch Pages*/
