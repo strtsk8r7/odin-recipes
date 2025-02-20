@@ -156,6 +156,7 @@ li  {
         transform: translateX(100%);
         padding: 5rem 2rem;
         transition: .5s;
+        flex-direction: column;
     }
 
     .primary-navigation[data-visible="true"]{
@@ -182,10 +183,12 @@ li  {
 
 .sub-menu {
     display: none;
+
 }
 
 .sub-menu li {
     padding: .4rem;
+
 }
 
 .sub-menu a {
@@ -225,11 +228,19 @@ li  {
     .primary-navigation a {
         color: #ef798a;
     }
+    .sub-menu {
+        position: absolute;
+        top: 2.5rem; 
+        right:3vw;
+        background-color: #342b33;
+    }
+    
+  
 }
 
 .primary-navigation {
     display: flex;
-    flex-direction: column;
+    
 }
 
 /*Branch Pages*/
