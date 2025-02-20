@@ -24,7 +24,7 @@
     display: none;
 }
 body {
-    font-family: "Lucida Console", "Monaco", monospace;
+    font-family: "Crimson_Pro", "Monaco", monospace;
     box-sizing: border-box;
     background-color: #483C46;
     color: #FFAA5A;
@@ -32,6 +32,10 @@ body {
     margin: 0;
     overflow-x: hidden;
   }
+@font-face {
+    font-family: "Crimson_Pro";
+    src: url(../odin-recipes/fonts/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf);
+}
 
 a {
     text-decoration: none;
@@ -44,6 +48,7 @@ a {
 
 ul {
     padding-inline-start: 0;
+    list-style: none;
 }
 
 h1 {
@@ -68,7 +73,7 @@ h1 {
 }
 
 li  {
-    list-style: none;
+    /*list-style: none;*/
     font-size: var(--step--4);
     font-weight: 900;
 }
@@ -193,4 +198,66 @@ li  {
     right: 1rem;
     top: 1rem;
     
+}
+
+.img-box {
+    border: solid;
+    width: 70vw;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.img {
+    grid-column: 2 / 4;
+    place-self: center;
+    width: 50vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.img-text {
+    grid-column: 1 / 5;
+    place-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.img-text li {
+    font-size: var(--step--1-12px);
+}
+
+.ingredients {
+    border: solid;
+    background-color: #ef798a;
+    width: 75vw;
+    margin: auto;
+    border-radius: 25px
+}
+
+.ingredients li {
+    font-size: var(--step-0-12px);
+    padding: .15rem;
+    color: #483C46;
+}
+
+.directions li {
+    padding: .5rem;
+}
+
+.directions {
+    margin: 1em;
+}
+
+.description {
+    padding: 1rem;
 }
