@@ -156,7 +156,7 @@ li  {
         transform: translateX(100%);
         padding: 5rem 2rem;
         transition: .5s;
-        flex-direction: column;
+        
     }
 
     .primary-navigation[data-visible="true"]{
@@ -170,13 +170,15 @@ li  {
     }
 
     .sub-menu {
-        transform: translateY(-300px);
-        transition: opacity 0.3s ease, transform 0.3s ease;
+        /*transform: translateY(-300px);
+        transition: opacity 0.3s ease, transform 0.3s ease;*/
+        display: none;
     }
 
     .sub-menu[data-visible2="true"]{
-        transform: translateX(0%);
-        transition: .5s;
+        /*transform: translateX(0%);
+        transition: .5s;*/
+        display: block;
     }
 }
 .mobile-subnav-toggle button {
@@ -184,16 +186,18 @@ li  {
     height: 1em;
 }
 button .subnav {
-    background: inherit;
-    height: 2em;
+    background: url("../odin-recipes/images/keyboard_arrow_down.svg");
+    height: 1em;
     width: 1em;
     border: none;
 }
 
 .subnav {
     border: none;
-    background: inherit;
+    /*background: inherit;*/
     width: 2em;
+    color: #FFAA5A;
+    height: 1em;
 }
 
 .sub-menu li {
@@ -247,7 +251,8 @@ button .subnav {
 
 .primary-navigation {
     display: flex;
-    
+    flex-direction: column;
+    gap: 2em;
 }
 
 /*Branch Pages*/
