@@ -16,3 +16,11 @@ navToggle.addEventListener("click", () => {
 });
 
 
+document.addEventListener("click", (e) => {
+    const isClickInside = primaryNav.contains(e.target) || navToggle.contains(e.target);
+
+    if (!isClickInside) {
+        primaryNav.setAttribute("data-visible", "false");
+        navToggle.setAttribute("aria-expanded", "false");
+    }
+});
