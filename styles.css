@@ -193,7 +193,7 @@ button .subnav {
     border: none;
 }
 
-.subnav[data-visible2="false"] {
+.subnav {
     border: none;
     /*background: inherit;*/
     align-items: center;
@@ -203,7 +203,7 @@ button .subnav {
     height: 1.5em;
 }
 
-.subnav[data-visible2="true"]{
+.subnav[aria-expanded="true"]{
     background: url(./images/keyboard_arrow_down.svg);
     width: 2em;
     height: 1.5em;
@@ -267,11 +267,22 @@ button .subnav {
 /*Branch Pages*/
 .mobile-nav-toggle {
     position: absolute;
+    background-image: url(./images/menu_28dp_FFAA5A_FILL0_wght400_GRAD0_opsz24.svg);
+    background-repeat: no-repeat;
+    background-color: inherit;
+    border: none;
     z-index: 9999;
     right: 1rem;
     top: 1rem;
-    
+    height: 2rem;
+    width: 2rem;
 }
+
+.mobile-nav-toggle[aria-expanded="true"]{
+    background: url(./images/close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg);
+    background-repeat: no-repeat;
+}
+
 
 .img-box {
     border: solid;
