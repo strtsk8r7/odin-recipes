@@ -6,6 +6,7 @@
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="styles.css">
     <script src="nav.js" defer></script>
+    <script src="subnav.js" defer></script> 
 </head>
 <body>
     <div class="header">
@@ -16,11 +17,12 @@
       <ul data-visible="false" id="primary-navigation" class="primary-navigation">
         <li><a class="Home" href='./recipes/recipe-index.html'><span aria-hidden="true">Recipes</span></a></li>
       
-          <li class="subnav"><button><img src="./images/keyboard_arrow_down.svg"></button>
-            <ul class="sub-menu">
-              <li><a href="recipes/buttermilk-cornbread.html">Buttermilk Cornbread</a></li>
-              <li><a href="recipes/chili.html">Chili</a></li>
-              <li><a href="recipes/pesto-bean-and-rice-soup.html">Pesto Bean and Rice Soup</a></li>
+          <button class="subnav" aria-controls="sub-menu" aria-expanded="false"><img src="./images/keyboard_arrow_down.svg"></button>
+          <button class="sr-only" aria-controls="sub-menu" aria-expanded="false"><span class="sr-only">Menu</span></button>  
+            <ul data-visible2="false" class="sub-menu">
+              <li><a href="recipes/buttermilk-cornbread.html"><span aria-hidden="true">Buttermilk Cornbread</span></a></li>
+              <li><a href="recipes/chili.html"><span aria-hidden="true">Chili</span></a></li>
+              <li><a href="recipes/pesto-bean-and-rice-soup.html"><span aria-hidden="true">Pesto Bean and Rice Soup</span></a></li>
             
             </li>  
               
@@ -48,5 +50,6 @@
             <li class="button"><a href="#"><img class=home-img src="images/menu.svg">Style</a></li>
             <li class="button"><a href="#"><img class=home-img src="images/menu.svg">Style</a></li>
         </ul>
+     
 </body>
 </html>
