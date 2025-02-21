@@ -193,11 +193,17 @@ button .subnav {
     border: none;
 }
 
-.subnav {
+.subnav[data-visible2="false"] {
     border: none;
     /*background: inherit;*/
     align-items: center;
     justify-items: center;
+    background: url(./images/chevron_right.svg);
+    width: 2em;
+    height: 1.5em;
+}
+
+.subnav[data-visible2="true"]{
     background: url(./images/keyboard_arrow_down.svg);
     width: 2em;
     height: 1.5em;
