@@ -198,7 +198,7 @@ button .subnav {
     /*background: inherit;*/
     align-items: center;
     justify-items: center;
-    background: url(../odin-recipes/images/keyboard_arrow_down.svg);
+    background: url(./images/keyboard_arrow_down.svg);
     width: 2em;
     height: 1.5em;
 }
