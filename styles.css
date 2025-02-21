@@ -186,18 +186,21 @@ li  {
     height: 1em;
 }
 button .subnav {
-    background: url("../odin-recipes/images/keyboard_arrow_down.svg");
-    height: 1em;
-    width: 1em;
+    /*background-image: url(../odin-recipes/images/keyboard_arrow_down.svg);
+    
+    height: 2em;
+    width: 1em;*/
     border: none;
 }
 
 .subnav {
     border: none;
     /*background: inherit;*/
+    align-items: center;
+    justify-items: center;
+    background: url(../odin-recipes/images/keyboard_arrow_down.svg);
     width: 2em;
-    color: #FFAA5A;
-    height: 1em;
+    height: 1.5em;
 }
 
 .sub-menu li {
