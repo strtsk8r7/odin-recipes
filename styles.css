@@ -156,7 +156,9 @@ li  {
         transform: translateX(100%);
         padding: 5rem 2rem;
         transition: .5s;
-        
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
     }
 
     .primary-navigation[data-visible="true"]{
@@ -243,25 +245,39 @@ button .subnav {
     .primary-navigation{
         backdrop-filter: none;
         background-color: #342b33;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: -2px;
+        right: 3vw;
+    }
+
+    .primary-navigation ul {
+        flex-direction: row;
     }
     
     .primary-navigation a {
         color: #ef798a;
+        font-size: var(--step--1);
     }
     .sub-menu {
-        position: absolute;
-        top: 2.5rem; 
-        right:3vw;
+        display: none;
+        position: fixed;
+        top: 45px; 
+        right:2vw;
         background-color: #342b33;
     }
     
-  
-}
+    .sub-menu[data-visible2="true"]{
+        transform: translateY(0%);
+        display: block; 
+    }
 
-.primary-navigation {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+    .mobile-nav-toggle {
+        display: none;
+    } 
 }
 
 /*Branch Pages*/
