@@ -313,6 +313,8 @@ h1, .featured {
     padding-inline: none;
     border: none;
     background-color: inherit;
+    border-left: solid .2px #342b33;
+    border-top: solid .2px #342b33;
 }
 
 .socials {
