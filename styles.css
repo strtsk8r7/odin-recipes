@@ -292,17 +292,19 @@ h1, .featured {
     justify-items: center;
 }
 
-.fb-share-button {
-    z-index: -1;
-    height: 2em;
-}
-
 .bluesky {
     height: 3.5em;
     width: 3.5em;
     border-radius: 50%;
     background: inherit;
    
+}
+
+.facebook {
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
+    background: inherit;
 }
 
 .socials button {
@@ -318,7 +320,7 @@ h1, .featured {
 }
 
 .socials {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 
