@@ -20,6 +20,11 @@
   }
 
 /*Universal Styling*/
+button {
+    padding-inline: 0;
+    padding-block: 0;
+}
+
 .sr-only {
     display: none;
 }
@@ -51,9 +56,10 @@ ul {
 
 h1 {
     font-size: var(--step-0);
-    border-bottom: solid 2px;
+    border-bottom: solid 3px;
     margin: 2vw;
-    padding-bottom: 1.5rem;
+    margin-right: 20vw;
+    padding-bottom: 1rem;
 }
 
 .nav {
@@ -127,7 +133,6 @@ li  {
     font-size: var(--step-0-12px);
     text-align: center;
     border: solid 4px #FFAA5A;
-    
     border-radius: 25px;
     padding: 1em;
 }
@@ -293,15 +298,25 @@ h1, .featured {
 }
 
 .bluesky {
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
     background: inherit;
+   
 }
 
 .socials button {
-    border: solid #FFAA5A 3px;
-    /*border-radius: 50%;*/
+    box-shadow: 4px 5px 5px #342b33;
+    border-radius: 50%;
     overflow: hidden;
+    padding-block: none;
+    padding-inline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.socials {
+    margin-bottom: 2em;
 }
 
 
